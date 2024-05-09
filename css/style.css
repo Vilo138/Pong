@@ -1,0 +1,26 @@
+#plocha{
+	width: 600px;					/* sirka plochy */
+	height: 600px;					/* vyska plochy */
+	border: green solid 20px;		/* oramovanie plochy */
+	border-bottom: none;			/* spodok bez oramovania */
+	margin-left: auto;				/* plocha je v strede okna */
+	margin-right: auto;
+	position: relative;				/* ostatne elementy maju referenciu pozicie zaciatok plochy */
+}
+
+#lopta{
+	width: 50px;					/* sirka lopty */
+	height: 50px;					/* vyska lopty */
+	border: solid 2px #FF8A0E;		/* lopta ma oranzovy ramcek */
+	border-radius: 50px;			/* lopta je gulata */
+	background-color: orange;		/* pomaranc */
+	position: absolute;				/* lopta ma referenciu pozicie v zaciatku plochy */
+}
+
+#padlo{
+	width: 150px;					/* sirka padla */
+	height: 20px;					/* vyska padla */
+	position: absolute;				/* padlo ma referenciu pozicie v zaciatku plochy */
+	background: blue;				/* padlo je modre */
+	bottom: 0;						/* padlo je na spodku plochy */
+}
